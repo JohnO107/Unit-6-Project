@@ -76,4 +76,6 @@ $(".hide").click(function(){
     $(".end2").toggle();
     $(".end3").toggle();
 });
-
+$(".reset").click(function(){
+	$(location).attr('href','https://johno107.github.io/Unit-6-Project/');
+});
