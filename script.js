@@ -46,7 +46,7 @@ $(".map2").click(function(){
     $(".end").slideDown("slow");
     $(".end2").hide();
     $(".end3").hide();
-    
+    $(".reset").show();
 });
 $(".fly").mouseenter(function(){
     $(".hide").text("You must do the same ow return the ball back ");
@@ -76,3 +76,4 @@ $(".hide").click(function(){
     $(".end2").toggle();
     $(".end3").toggle();
 });
+
